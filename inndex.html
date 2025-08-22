@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tor o hoy nai na lol ne ne tatarati chaipe ne just sir ke bole dis suraj likche </title>
+    <style>
+        body{
+            margin:0;
+            padding:0 1rem;
+            font-family:Arial,Helvetica,sans-serif;
+            background:#f7f9fb;
+            color:#222;
+        }
+        h1{
+            text-align:center;
+            margin:1rem 0 .5rem;
+            color:#0056b3;
+        }
+        table{
+            width:100%;
+            border-collapse:collapse;
+            margin:1rem auto;
+            max-width:1200px;
+            background:#fff;
+            box-shadow:0 0 8px rgba(0,0,0,.08);
+        }
+        th,td{
+            padding:.75rem 1rem;
+            border:1px solid #ddd;
+            vertical-align:top;
+        }
+        th{
+            background:#e9eff5;
+            font-weight:600;
+            text-align:left;
+        }
+        pre{
+            margin:0;
+            background:#f5f5f5;
+            padding:.5rem;
+            border-radius:4px;
+            overflow-x:auto;
+            font-size:.875rem;
+            font-family:Consolas,"Courier New",monospace;
+            white-space:pre-wrap;
+            word-break:break-all;
+        }
+        .no-code{
+            color:#777;
+            font-style:italic;
+        }
+    </style>
+</head>
+<body>
+
+<h1>code gulo important copy te lik taratari chaap and credit dite bhulbi na</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th style="width:5%">#</th>
+            <th style="width:45%">Question (exact wording from sheet)</th>
+            <th style="width:50%">Python Code</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <!-- Row 1 -->
+        <tr>
+            <td>1</td>
+            <td>input  weicomemessage and dispiay it</td>
+            <td><pre>a=input("Enter the welcome message: ")
+print(a)</pre></td>
+        </tr>
+
+        <!-- Row 2 -->
+        <tr>
+            <td>2</td>
+            <td>Input two numbers and dispiay the larget and smaler number.</td>
+            <td><pre>a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+if a==b:
+    print(f"{a} and {b} are equal.")
+elif a>b:
+    print(f"{a} is larger than {b}.")
+    print(f"{b} is smaller than {a}.")
+elif b>a:
+    print(f"{b} is larger than {a}.")
+    print(f"{a} is smaller than {b}.")</pre></td>
+        </tr>
+
+        <!-- Row 3 -->
+        <tr>
+            <td>3</td>
+            <td>input three numbers and display the largest/smalest number</td>
+            <td><pre>a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+c=int(input("Enter the third number: "))
+if a==b==c:
+    print(f"All three numbers {a}, {b}, and {c} are equal.")
+elif a==b:
+    if a>c:
+        print(f"{a} and {b} are equal and largest.")
+        print(f"{c} is smaller than {a} and {b}.")
+    else:
+        print(f"{c} is the largest.")
+        print(f"{a} and {b} are equal and smaller than {c}.")
+elif a==c:
+    if a>b:
+        print(f"{a} and {c} are equal and largest.")
+        print(f"{b} is smaller than {a} and {c}.")
+    else:
+        print(f"{b} is the largest.")
+        print(f"{a} and {c} are equal and smaller than {b}.")
+elif b==c:
+    if b>a:
+        print(f"{b} and {c} are equal and largest.")
+        print(f"{a} is smaller than {b} and {c}.")
+    else:
+        print(f"{a} is the largest.")
+        print(f"{b} and {c} are equal and smaller than {a}.")
+elif a>b:
+    if a>c:
+        print(f"{a} is the largest.")
+        if b>c:
+            print(f"{b} is smaller then {a}.")
+            print(f"{c} is the smallest of all.")
+        else:
+            print(f"{c} is smaller than {a}.")
+            print(f"{b} is the smallest of all.")
+    elif a==c:
+        print(f"{a} and {c} are equal and largest.")
+        print(f"{b} is smaller than {a} and {c}.")
+    elif c>a:
+        print(f"{c} is the largest.")
+        print(f"{a} is smaller than {c}.")
+        print(f"{b} is smallest of all.")
+elif b>a:
+    if b>c:
+        print(f"{b} is the largest.")
+        if a>c:
+            print(f"{a} is smaller than {b}.")
+            print(f"{c} is the smallest of all.")
+        else:
+            print(f"{c} is smaller than {b}.")
+            print(f"{a} is the smallest of all.")
+    elif b==c:
+        print(f"{b} and {c} are equal and largest.")
+        print(f"{a} is smaller than {b} and {c}.")
+    elif c>b:
+        print(f"{c} is the largest.")
+        print(f"{b} is smaller than {c}.")
+        print(f"{a} is the smallest of all.")</pre></td>
+        </tr>
+
+        <!-- Row 4 -->
+        <tr>
+            <td>4</td>
+            <td>Generate the follcwing patlems using nested loop <br>
+                <strong>Patien-1</strong><br>
+                *<br>
+                **<br>
+                ***<br>
+                ****<br>
+                *****<br>
+                <strong>Pattem2</strong><br>
+                12345<br>
+                1234<br>
+                123<br>
+                12<br>
+                1<br>
+                <strong>Pattem-3</strong><br>
+                A<br>
+                AB<br>
+                ABC<br>
+                ABCD<br>
+                ABCDE
+            </td>
+            <td><pre>'''
+1. Right angle triangle pattern with stars
+'''
+print("This program print right angle triangle pattern with stars")
+for i in range(1,6):
+    print("*"*i)
+
+'''
+2.flipped Right angle triangle pattern
+'''
+print("This program print flipped right angle triangle pattern with numbers")
+for j in range(5,0,-1):
+    for k in range(1,j+1):
+        print(k,end="")
+    print()
+'''
+3.flipped Right angle triangle pattern with alphabets
+'''
+print("This program print right angle triangle pattern with alphabets")
+for l in range(1, 6):
+    for m in range(65, 65+l):
+        print(chr(m), end="")
+    print()</pre></td>
+        </tr>
+
+        <!-- Row 5 -->
+        <tr>
+            <td>5</td>
+            <td>Detemine-whether a nurmber is a perfect numbur,an Armstrong number ora paindrome.</td>
+            <td><pre>print("code checks for Perfect / Armstrong / Palindrome number")
+num = int(input("Enter a number: "))
+s = 0
+for i in range(1, num):
+    if num % i == 0:
+        s = s + i
+if s == num:
+    print(num, "is a Perfect number")
+else:
+    print(num, "is not a Perfect number")
+n = num
+s = 0
+length = len(str(num))
+while n > 0:
+    d = n % 10
+    s = s + (d ** length)
+    n = n // 10
+if s == num:
+    print(num, "is an Armstrong number")
+else:
+    print(num, "is not an Armstrong number")
+if str(num) == str(num)[::-1]:
+    print(num, "is a Palindrome")
+else:
+    print(num, "is not a Palindrome")</pre></td>
+        </tr>
+
+        <!-- Row 6 -->
+        <tr>
+            <td>6</td>
+            <td>Input a number and check if thenumber is a prime or composite number,</td>
+            <td><pre>print("code checks for Prime or Composite")
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("Not Prime, Not Composite")
+else:
+    count = 0
+    for i in range(2, num):
+        if num % i == 0:
+            count = 1
+            break
+    if count == 0:
+        print("Prime number")
+    else:
+        print("Composite number")</pre></td>
+        </tr>
+
+        <!-- Row 7 -->
+        <tr>
+            <td>7</td>
+            <td>Display the terms of a Fibonacdi series.</td>
+            <td><pre>print("Fibonacci series")
+n = int(input("Enter terms: "))
+a, b = 0, 1
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b</pre></td>
+        </tr>
+
+        <!-- Row 8 -->
+        <tr>
+            <td>8</td>
+            <td>Compute the greatest common divisor and least common multipie of two integers.</td>
+            <td><pre>a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+gcd = 1
+for i in range(1, min(a, b)+1):
+    if a % i == 0 and b % i == 0:
+        gcd = i
+print("Greatest common divisible =", gcd)
+lcm = (a * b) // gcd
+print("Lowest common multiple =", lcm)</pre></td>
+        </tr>
+
+        <!-- Row 9 -->
+        <tr>
+            <td>9</td>
+            <td>Count and display the number of oweis,cansonants,uppercase,lowercase characters instnng</td>
+            <td class="no-code">(Not provided in uploaded files)</td>
+        </tr>
+
+        <!-- Row 10 -->
+        <tr>
+            <td>10</td>
+            <td>input a string and determine whether it is a palindrome or not; convertthe case of characters ina string</td>
+            <td><pre>s = input("Enter a string: ")
+
+if s == s[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+
+new = ""
+for ch in s:
+    if ch.isupper():
+        new += ch.lower()
+    elif ch.islower():
+        new += ch.upper()
+    else:
+        new += ch
+print("Case converted:", new)</pre></td>
+        </tr>
+
+        <!-- Row 11 -->
+        <tr>
+            <td>11</td>
+            <td>.Find tne largest/smallestnumberina list/tuple</td>
+            <td class="no-code">sob pari na bhai </td>
+        </tr>
+
+        <!-- Row 12 -->
+        <tr>
+            <td>12</td>
+            <td>Input a list of numbers and swap elements at the even location with the elemenis at Ine odd locabon</td>
+            <td class="no-code">etao pari na</td>
+        </tr>
+
+        <!-- Row 13 -->
+        <tr>
+            <td>13</td>
+            <td>.inpul a lis/lupieof elements,searchfora given alement in the lis/tupie.</td>
+            <td class="no-code">nah bro nahi ho payega </td>
+        </tr>
+
+        <!-- Row 14 -->
+        <tr>
+            <td>14</td>
+            <td>.Createa dictionarywith the rollnumber,name andmarks of n students ina ciass and dispiay the names of students whohave matksabove 75.</td>
+            <td class="no-code">eta partam but bore lagche korbo na</td>
+        </tr>
+
+    </tbody>
+</table>
+
+</body>
+</html>
